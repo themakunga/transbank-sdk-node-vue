@@ -1,6 +1,7 @@
 Transbank nodejs Vue plugin
 ---
 
+*Soon there will be a nuxt version*
 
 How to add to your project:
 
