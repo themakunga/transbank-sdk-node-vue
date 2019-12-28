@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "transbank-sdk-node": "^1.0.9"
+  },
+  "name": "transbank-sdk-node-vue",
+  "version": "1.0.0",
+  "description": "Awesome VUEJS plugin for transbank sdk node",
+  "main": "index.js",
+  "repository": "https://github.com/themakunga/transbank-sdk-node-vue.git",
+  "author": "Nicolas Martinez <nmartinezv@icloud.com>",
+  "license": "MIT",
+  "private": false
+}
