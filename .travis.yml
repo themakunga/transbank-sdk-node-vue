@@ -1,0 +1,27 @@
+languaje: node_js
+node_js:
+  - "10"
+cache: yarn
+install:
+  - yarn install
+jobs:
+  include:
+    - stage: NPM Release
+      deploy:
+        provider: npm
+        email: '$NPM_EMAIL'
+        api_key: '$NPM_TOKEN'
+        skip_cleanup: true
+        on:
+          tags: true
+    - stage: Github Release
+      deploy:
+        provider: releases
+        api_key: $GITHUB_OAUTH_TOKEN
+        skip_cleanup: true
+        on:
+          tags: true
+branches:
+  only:
+    - master
+    - /^v[0-9]+.*$/
