@@ -6,8 +6,28 @@
   "version": "1.0.0",
   "description": "Awesome VUEJS plugin for transbank sdk node",
   "main": "index.js",
-  "repository": "https://github.com/themakunga/transbank-sdk-node-vue.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themakunga/transbank-sdk-node-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/themakunga/transbank-sdk-node-vue/issues"
+  },
+  "homepage": "https://github.com/themakunga/transbank-sdk-node-vue#readme",
   "author": "Nicolas Martinez <nmartinezv@icloud.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "keywords": [
+    "transbank",
+    "tbk",
+    "payments",
+    "webpay",
+    "webpayplus",
+    "oneclick",
+    "onepay",
+    "creditcard",
+    "debitcard",
+    "gateway",
+    "payment gateway"
+  ],
 }
