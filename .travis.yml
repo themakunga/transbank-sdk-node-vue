@@ -6,6 +6,9 @@ install:
   - yarn install
 jobs:
   include:
+    - stage: Test
+      script:
+        - yarn test
     - stage: NPM Release
       deploy:
         provider: npm

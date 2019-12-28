@@ -3,9 +3,12 @@
     "transbank-sdk-node": "^1.0.9"
   },
   "name": "transbank-sdk-node-vue",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Awesome VUEJS plugin for transbank sdk node",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"currently there's not test here\"; exit 0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/themakunga/transbank-sdk-node-vue.git"
