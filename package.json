@@ -3,7 +3,7 @@
     "transbank-sdk-node": "^1.0.9"
   },
   "name": "transbank-sdk-node-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Awesome VUEJS plugin for transbank sdk node",
   "main": "index.js",
   "scripts": {
